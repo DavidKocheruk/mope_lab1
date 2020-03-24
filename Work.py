@@ -1,5 +1,7 @@
 import random
 import math
+import time
+start_time = time.time()
 
 a0=5
 a1=3
@@ -48,3 +50,5 @@ for i in range(8):
 #print(Yser)
 #print(round(Y2,2))
 print("max(Y-Yser)^2="+str(round(max(Y2),2)))
+
+print(f'\ntime: {time.time() - start_time}')
